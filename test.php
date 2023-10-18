@@ -11,4 +11,7 @@
 </body>
 </html>
 <?php
-echo 'Hello';
+function hello() {
+    echo 'Hello World!';
+}
+call_user_func('hello');
