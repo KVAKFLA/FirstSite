@@ -11,7 +11,9 @@
 </body>
 </html>
 <?php
+$as = 'HelloWorld!';
 function hello() {
-    echo 'Hello World!';
+    global $as;
+    echo $as;
 }
 call_user_func('hello');
