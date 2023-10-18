@@ -1,0 +1,38 @@
+.headpanel{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headpanelright{
+    align-items: center;
+}
+.button{
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 4px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #fff;
+	background-color: #ff0000;
+	box-shadow: 0 2px #520000;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+}
+.button:hover {
+	background-color: #860000;
+}
+.button:active {
+    height: 31px;
+    font-size: 13px;
+}
