@@ -14,15 +14,22 @@
 </head>
 <body>
     <div class="hl">
-        <img src="Img/icon.png" width="4%">
-        <div class="hlr">
-            <div class="ddesc">
-                <a class="desc"><span>Describtton</span></a>
-            </div>
-            <div class="bd">
-                <button type="button" class="button"><span>Authorization</span></button>
-            </div>
+        <div class="ddescd">
+            <button type="button" class="desc"><span>Description</span></button>
         </div>
+        <div class="dblog">
+            <button type="button" class="blog"><span>Blog</span></button>
+        </div>
+        <div class="dbus">
+            <button type="button" class="bus"><span>Business</span></button>
+        </div>
+        <div class="dlog">
+            <button type="button" class="log"><span>Login</span></button>
+        </div>
+        <div class="breg">
+            <button type="button" class="reg"><span>Register</span></button>
+        </div>
+        
     </div>
 </body>
 </html>
