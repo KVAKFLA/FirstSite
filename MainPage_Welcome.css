@@ -1,11 +1,22 @@
+
+html{
+	background-color: rgb(240, 240, 240);
+}
+
+/*top*/
 .hl{
     background-color: white;
     display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: 0%;
 }
+
+/*buttons*/
 .log{
 	display: block;
 	width: 200px;
