@@ -13,11 +13,15 @@
 
 </head>
 <body>
-    <div class="headpanel">
-        <img src="Img/icon.png" width="5%">
-        <div class="headpanelright">
-            <a>Описание</a>
-            <button type="button" class="button">Аторизация</button>
+    <div class="hl">
+        <img src="Img/icon.png" width="4%">
+        <div class="hlr">
+            <div class="ddesc">
+                <a class="desc"><span>Describtton</span></a>
+            </div>
+            <div class="bd">
+                <button type="button" class="button"><span>Authorization</span></button>
+            </div>
         </div>
     </div>
 </body>
