@@ -13,23 +13,31 @@
 
 </head>
 <body>
-    <div class="hl">
-        <div class="ddescd">
-            <button type="button" class="desc"><span>Description</span></button>
+    <head>
+        <div class="hl">
+            <div class="ddescd">
+                <button type="button" class="desc"><span>Description</span></button>
+            </div>
+            <div class="dblog">
+                <button type="button" class="blog"><span>Blog</span></button>
+            </div>
+            <div class="dbus">
+                <button type="button" class="bus"><span>Business</span></button>
+            </div>
+            <div class="dlog">
+                <button type="button" class="log"><span>Login</span></button>
+            </div>
+            <div class="breg">
+                <button type="button" class="reg"><span>Register</span></button>
+            </div>
         </div>
-        <div class="dblog">
-            <button type="button" class="blog"><span>Blog</span></button>
+    </head>
+    <central>
+        <div class="tf">
+            <div class="tf1">CREATE</div>
+            <div class="tf2">FANTASIZE</div>
+            <div class="tf3">GET INSPIRED</div>
         </div>
-        <div class="dbus">
-            <button type="button" class="bus"><span>Business</span></button>
-        </div>
-        <div class="dlog">
-            <button type="button" class="log"><span>Login</span></button>
-        </div>
-        <div class="breg">
-            <button type="button" class="reg"><span>Register</span></button>
-        </div>
-        
-    </div>
+    </central>
 </body>
 </html>

@@ -16,6 +16,13 @@ html{
 	top: 0%;
 }
 
+/*text-flip*/
+.tf{
+	text-align: center;
+	left: 50%;
+	top: 50%;
+}
+
 /*buttons*/
 .log{
 	display: block;
