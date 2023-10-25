@@ -32,12 +32,22 @@
             </div>
         </div>
     </head>
-    <central>
-        <div class="tf">
-            <div class="tf1">CREATE</div>
-            <div class="tf2">FANTASIZE</div>
-            <div class="tf3">GET INSPIRED</div>
-        </div>
-    </central>
-</body>
+    </body>
+<central class="cent">
+    <div class="tf">
+        <div class="tf1"><span>ARTBASE</span></div>
+    </div>
+</central>
+<lower>
+    <img width="200" height="300" src="Img/i1.jpg">
+    <img width="200" height="300" src="Img/i2.jpg">
+    <img width="200" height="300" src="Img/i3.jpg">
+    <img width="200" height="300" src="Img/i4.jpg">
+    <img width="200" height="300" src="Img/i5.jpg">
+    <img width="200" height="300" src="Img/i6.jpg">
+    <img width="200" height="300" src="Img/i7.jpg">
+    <img width="200" height="300" src="Img/i8.jpg">
+    <img width="200" height="300"src="Img/i9.jpg">
+    <img width="200" height="300" src="Img/i10.jpg">
+</lower>
 </html>

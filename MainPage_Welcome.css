@@ -6,6 +6,8 @@ html{
 /*top*/
 .hl{
     background-color: white;
+	position: sticky;
+	top: 0px;
     display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -15,12 +17,29 @@ html{
 	left: 0%;
 	top: 0%;
 }
+/*lower*/
+lower {
+	justify-content: center;
+}
+lower img {
+	transform: skew(-0.06turn, 18deg);
+	border-radius: 20px;
+    margin: 20px;
+}
 
 /*text-flip*/
-.tf{
+.tf {
+	margin: 0% auto;
+	margin-top: 25%;
 	text-align: center;
-	left: 50%;
-	top: 50%;
+}
+.tf span{
+	font-family: sans-serif;
+	font-size: 128px;
+	animation: texth 5s linear infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(red 10%, blue);
 }
 
 /*buttons*/
