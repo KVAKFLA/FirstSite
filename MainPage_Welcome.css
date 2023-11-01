@@ -6,6 +6,7 @@ html{
 	background-color: rgba(58, 58, 58, 1);
   	background-blend-mode: multiply;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 /*top*/
@@ -216,15 +217,6 @@ body {
 	display: flex;
 	flex: 0 0 120px;
 }
-.scroll3 {
-	background-color: #f1f1f1;
-	z-index: 2;
-	width: 100vw;
-	height: 100vh;
-	left: 0;
-	position: sticky;
-	box-shadow: 0 -2px 5px 0 #e90b8b;
-}
 .scroll2 span {
 	color: white;
 	font-family: sans-serif;
@@ -238,12 +230,51 @@ body {
 .scroll2 span p {
 	font-size: 24px;
 }
-.buttom {
-	background-color: #1f1f1f;
+.scroll3 {
+	background-color: #f1f1f1;
 	z-index: 2;
 	width: 100vw;
-	height: 40vh;
+	height: 100vh;
 	left: 0;
 	position: sticky;
-	box-shadow: 0 -5px 0 0 #352384;
+	box-shadow: 0 -2px 5px 0 #e90b8b;
 }
+.scroll3 img {
+	position: relative;
+	border-radius: 2em;
+}
+.im4 {
+	right: 5vh;
+	z-index: 5;
+	top: 15vh;
+}
+.im5 {
+	z-index: 3;
+	top: 10vh;
+}
+.im6 {
+	z-index: 4;
+	top: 20vh;
+	right: -5vh;
+}
+.scroll3 span h1 {
+	font-size: 48px;
+}
+.scroll3 span p {
+	font-size: 32px;
+}
+.scroll3 span {
+	text-align: right;
+	position: relative;
+	top: 35vh;
+	font-family: sans-serif;
+}
+.buttom {
+		background-color: #1f1f1f;
+		z-index: 2;
+		width: 100vw;
+		height: 40vh;
+		left: 0;
+		position: sticky;
+		box-shadow: 0 -5px 0 0 #352384;
+	}

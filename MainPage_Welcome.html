@@ -8,50 +8,59 @@
         <link rel = "shortcut icon" href="Img/icon.png" type="image/x-icon">
 
         <link rel="stylesheet" href="MainPage_Welcome.css" />
+        <link rel="stylesheet" href="animate.css" />
+
+        <script src="wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 
         <title>ARTBASE: main page</title>
 
     </head>
     <header>
         <div class="hl">
-            <div class="artb">
+            <div class="artb wow fadeInDown">
                 <p><a href="MainPage_Welcome.html" class="artcl">Artbase</a></p>
             </div>
-            <div class="ddescd">
-                <p><a href="#" class="desc">Description</a></p>
+            <div class="ddescd wow fadeInDown">
+                <p><a href="#p1" class="desc">Description</a></p>
             </div>
-            <div class="dbus">
-                <p><a href="#" class="bus">Business</a></p>
+            <div class="dbus wow fadeInDown">
+                <p><a href="#p2" class="bus">Business</a></p>
             </div>
-            <div class="dblog">
-                <p><a href="#" class="blog">Blog</a></p>
+            <div class="dblog wow fadeInDown">
+                <p><a href="#p3" class="blog">Blog</a></p>
             </div>
             <div class="dlog">
-                <button type="button" class="log"><span>Login</span></button>
+                <button type="button" class="log wow fadeInDown"><span>Login</span></button>
             </div>
             <div class="breg">
-                <button type="button" class="reg"><span>Register</span></button>
+                <button type="button" class="reg wow fadeInDown"><span>Register</span></button>
             </div>
         </div>
     </header>
     <body class="grid">
-        <div class="scroll1">
-            <img height="700px" class="im1" align="left" src="Img/im1.jpg">
-            <img height="700px" class="im2" align="left" src="Img/im2.jpg">
-            <img height="700px" class="im3" align="left" src="Img/im3.jpg">
-            <span><h1>ARTBASE - DESCRIPTION</h1><p>Artbase - a large storage of your images,<br> but not a simple one. It was created not<br> for storing personal photos, but for<br> public display. Your images will be<br> visible to everyone, they will be able to<br> evaluate and comment on them. This way<br> you can develop your business and blog.</p></span>
+        <div class="scroll1" id="p1">
+            <img height="700px" class="im1 wow slideInLeft" align="left" src="Img/im1.jpg">
+            <img height="700px" class="im2 wow slideInLeft" align="left" src="Img/im2.jpg">
+            <img height="700px" class="im3 wow slideInLeft" align="left" src="Img/im3.jpg">
+            <div class="wow slideInRight "><span><h1>ARTBASE - DESCRIPTION</h1><p>Artbase - a large storage of your images,<br> but not a simple one. It was created not<br> for storing personal photos, but for<br> public display. Your images will be<br> visible to everyone, they will be able to<br> evaluate and comment on them. This way<br> you can develop your business and blog.</p></span></div>
         </div>
-        <div class="scroll2">
+        <div class="scroll2" id="p2">
             <span>
-                <h1>ARTBASE - BUSINESS</h1>
-                <p>Develop your exhibitions of paintings and works of art.<br>ARTBASE - this is the platform where you can promote your business.<br>We can help you to promote and become more famous.</p>
+                <div class="wow fadeInUp"><h1>ARTBASE - BUSINESS</h1></div>
+                <div class="wow fadeInUp"><p>Develop your exhibitions of paintings and works of art.<br>ARTBASE - this is the platform where you can promote your business.<br>We can help you to promote and become more famous.</p></div>
             </span>
         </div>
-        <div class="scroll3">
-
+        <div class="scroll3" id="p3">
+            <img height="700px" class="im4 wow slideInRight " align="right" src="Img/im4.jpg">
+            <img height="700px" class="im5 wow slideInRight " align="right" src="Img/im5.jpg">
+            <img height="700px" class="im6 wow slideInRight " align="right" src="Img/im6.jpg">
+            <div class="wow slideInLeft"><span><h1>ARTBASE - BLOG</h1><p>With Artbase, you can promote your community.<br> Amuse the audience by posting memes,<br> publish cuts from the stream or videos, make announcements of future events<br> and talk about what is happening<br> behind the scenes.</p></span></div>
         </div>
         <div class="buttom">
-
+            
         </div>
     </body>
 </html>
