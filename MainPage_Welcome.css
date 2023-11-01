@@ -10,13 +10,13 @@ html{
 	top: 0px;
     display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
 	align-items: center;
 	position: absolute;
 	width: 100%;
 	left: 0%;
 	top: 0%;
 }
+
 /*lower*/
 lower {
 	justify-content: center;
@@ -27,7 +27,8 @@ lower img {
     margin: 20px;
 }
 
-/*text-flip*/
+
+/*text-central*/
 .tf {
 	margin: 0% auto;
 	margin-top: 25%;
@@ -39,187 +40,101 @@ lower img {
 	animation: texth 5s linear infinite;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-image: linear-gradient(red 10%, blue);
+	background-image: linear-gradient(to right, #352384, #e90b8b);
 }
 
 /*buttons*/
-.log{
-	display: block;
-	width: 200px;
-	height: 40px;
-	line-height: 10px;
-	font-size: 18px;
-	font-family: sans-serif;
+
+.desc {
 	text-decoration: none;
-	color: rgb(138, 138, 138);
-	border: 2px solid rgb(138, 138, 138);
-	letter-spacing: 2px;
-	text-align: center;
-	position: relative;
-	transition: all .35s;
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	background-size: 0% 10%;
+	background-image: linear-gradient(to right, #352384, #e90b8b);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 2px;
+	transition: 0.3s;
+
+	margin: 10px 10px 10px 750px;
+}
+.desc:hover {
+	background-size: 100% 10%;
+}
+
+.blog {
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	background-size: 0% 10%;
+	background-image: linear-gradient(to right, #352384, #e90b8b);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 2px;
+	transition: 0.3s;
+
 	margin: 10px;
 }
-.log span{
-	position: relative;
-	z-index: 2;
+.blog:hover {
+	background-size: 100% 10%;
 }
-.log:after{
-	position: absolute;
-	content: "";
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 0;
-	background: rgb(138, 138, 138);
-	transition: all .35s;
-}
-.log:hover{
-	color: rgb(255, 255, 255);
-}
-.log:hover:after{
-	height: 100%;
-}
-.desc{
-	display: block;
-	width: 200px;
-	height: 40px;
-	line-height: 10px;
-	font-size: 18px;
-	font-family: sans-serif;
+
+.bus {
 	text-decoration: none;
-	color: rgb(218, 131, 0);
-	border: 2px solid rgb(218, 131, 0);
-	letter-spacing: 2px;
-	text-align: center;
-	position: relative;
-	transition: all .35s;
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	background-size: 0% 10%;
+	background-image: linear-gradient(to right, #352384, #e90b8b);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 2px;
+	transition: 0.3s;
+
 	margin: 10px;
 }
-.desc span{
-	position: relative;
-	z-index: 2;
+.bus:hover {
+	background-size: 100% 10%;
 }
-.desc:after{
-	position: absolute;
-	content: "";
-	top: 0; 
-	left: 0;
-	width: 100%;
-	height: 0;
-	background: rgb(218, 131, 0);
-	transition: all .35s;
-}
-.desc:hover{
-	color: rgb(255, 255, 255);
-}
-.desc:hover:after{
-	height: 100%;
-}
-.reg{
-	display: block;
-	width: 200px;
-	height: 40px;
-	line-height: 10px;
-	font-size: 18px;
+
+.reg {
+    padding: 7px 25px 7px 25px; 
+    background-color: #ff0000; 
+    color: #fff; 
+    border: none; 
+    font-size: 18px; 
 	font-family: sans-serif;
-	text-decoration: none;
-	color: rgb(255, 0, 0);
-	border: 2px solid rgb(255, 0, 0);
-	letter-spacing: 2px;
-	text-align: center;
+	box-shadow: 4px 4px 0 0 #770000, -4px -4px 0 0 #770000;
 	position: relative;
-	transition: all .35s;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s; 
+
+
 	margin: 10px;
 }
-.reg span{
-	position: relative;
-	z-index: 2;
+.reg:hover {
+    background-color: #800000; 
+    box-shadow: 0 0 0 0;
 }
-.reg:after{
-	position: absolute;
-	content: "";
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 0;
-	background: #ff003b;
-	transition: all .35s;
-}
-.reg:hover{
-	color: rgb(255, 255, 255);
-}
-.reg:hover:after{
-	height: 100%;
-}
-.blog{
-	display: block;
-	width: 200px;
-	height: 40px;
-	line-height: 10px;
-	font-size: 18px;
+
+.log {
+    padding: 7px 25px 7px 25px; 
+    background-color: #a0a0a0; 
+    color: #fff; 
+    border: none; 
+    font-size: 18px; 
 	font-family: sans-serif;
-	text-decoration: none;
-	color: rgb(190, 1, 190);
-	border: 2px solid rgb(190, 1, 190);
-	letter-spacing: 2px;
-	text-align: center;
+	box-shadow: 4px 4px 0 0 #4e4e4e, -4px -4px 0 0 #4e4e4e;
 	position: relative;
-	transition: all .35s;
-	margin: 10px;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s; 
+
+	margin: 10px 10px 10px 530px;
 }
-.blog span{
-	position: relative;
-	z-index: 2;
-}
-.blog:after{
-	position: absolute;
-	content: "";
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 0;
-	background: rgb(190, 1, 190);
-	transition: all .35s;
-}
-.blog:hover{
-	color: rgb(255, 255, 255);
-}
-.blog:hover:after{
-	height: 100%;
-}
-.bus{
-	display: block;
-	width: 200px;
-	height: 40px;
-	line-height: 10px;
-	font-size: 18px;
-	font-family: sans-serif;
-	text-decoration: none;
-	color: rgb(22, 22, 22);
-	border: 2px solid rgb(22, 22, 22);
-	letter-spacing: 2px;
-	text-align: center;
-	position: relative;
-	transition: all .35s;
-	margin: 10px;
-}
-.bus span{
-	position: relative;
-	z-index: 2;
-}
-.bus:after{
-	position: absolute;
-	content: "";
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 0;
-	background: #000000;
-	transition: all .35s;
-}
-.bus:hover{
-	color: rgb(255, 255, 255);
-}
-.bus:hover:after{
-	height: 100%;
+.log:hover {
+    background-color: #727272; 
+    box-shadow: 0 0 0 0;
 }
