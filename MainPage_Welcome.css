@@ -1,6 +1,10 @@
 
 html{
 	background-color: rgb(240, 240, 240);
+	background-image: url("Img/Arts.jpg");
+	background-attachment: fixed;
+	background-color: rgba(58, 58, 58, 1);
+  	background-blend-mode: multiply;
 }
 
 /*top*/
@@ -16,6 +20,7 @@ html{
 	left: 0;
 	top: 0;
 	z-index: 3;
+	box-shadow: 0 5px 0 0 #e90b8b;
 }
 
 /*lower*/
@@ -102,12 +107,12 @@ lower img {
 
 .reg {
     padding: 7px 25px 7px 25px; 
-    background-color: #ff0000; 
+    background-color: #e90b8b; 
     color: #fff; 
     border: none; 
     font-size: 18px; 
 	font-family: sans-serif;
-	box-shadow: 4px 4px 0 0 #770000, -4px -4px 0 0 #770000;
+	box-shadow: 4px 4px 0 0 #961d63, -4px -4px 0 0 #961d63;
 	position: relative;
     transition: background-color 0.4s, box-shadow 0.2s 0.3s; 
 
@@ -115,25 +120,25 @@ lower img {
 	margin: 10px;
 }
 .reg:hover {
-    background-color: #800000; 
+    background-color: #961d63; 
     box-shadow: 0 0 0 0;
 }
 
 .log {
     padding: 7px 25px 7px 25px; 
-    background-color: #a0a0a0; 
+    background-color: #352384; 
     color: #fff; 
     border: none; 
     font-size: 18px; 
 	font-family: sans-serif;
-	box-shadow: 4px 4px 0 0 #4e4e4e, -4px -4px 0 0 #4e4e4e;
+	box-shadow: 4px 4px 0 0 #23135f, -4px -4px 0 0 #23135f;
 	position: relative;
     transition: background-color 0.4s, box-shadow 0.2s 0.3s; 
 
 	margin: 10px 10px 10px 520px;
 }
 .log:hover {
-    background-color: #727272; 
+    background-color: #23135f; 
     box-shadow: 0 0 0 0;
 }
 
@@ -148,13 +153,18 @@ body {
 	height: 100vh;
 	left: 0;
 	position: sticky;
+	box-shadow: 0 1px 5px 0 #352384;
 }
 .scroll2 {
 	left: 0;
 	z-index: 2;
 	width: 100vw;
-	height: 100vh;
+	height: 70vh;
 	position: sticky;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex: 0 0 120px;
 }
 .scroll3 {
 	background-color: #f1f1f1;
@@ -163,4 +173,21 @@ body {
 	height: 100vh;
 	left: 0;
 	position: sticky;
+	box-shadow: 0 -1px 5px 0 #e90b8b;
+}
+.scroll2 span {
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	text-shadow: 0 0 4px #e90b8b;
+}
+.buttom {
+	background-color: #1f1f1f;
+	z-index: 2;
+	width: 100vw;
+	height: 40vh;
+	left: 0;
+	position: sticky;
+	box-shadow: 0 -5px 0 0 #352384;
 }
