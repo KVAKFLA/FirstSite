@@ -1,0 +1,128 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+.headerColor {
+	background-color: white;
+}
+html {
+	background-image: url(Img/Arts.jpg);
+	background-attachment: fixed;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	background-color: rgba(58, 58, 58, 1);
+	background-blend-mode: multiply;
+}
+body {
+	background-color: transparent;
+	background-color:transparent !important;
+
+}
+.article1 {
+	height: 100vh;
+	background-color: white;
+}
+.article2 {
+	height: 70vh;
+
+	
+}
+.article3 {
+	height: 100vh;
+	background-color: white;
+}
+.h-er {
+    background-color: white;
+	position: fixed;
+	box-shadow: 0 5px 0 0 #e90b8b;
+}
+.m-color {
+	background-color: blueviolet;
+}
+.footer1 {
+	height: 7vh;
+	background-color: #353535;
+}
+.footer2 {
+	height: 15vh;
+	background-color: #1f1f1f;
+}
+.headerUl {
+	list-style-type: none;
+}
+.headerUl li {
+	position: relative;
+	float: left;
+	margin: 10px;
+	font-size: 24px;
+}
+.headerUl li a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	background-size: 0% 6%;
+	background-image: linear-gradient(to right, #352384, #e90b8b);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 1px;
+	transition: 0.3s;
+}
+.headerUl li a:hover {
+	background-size: 100% 6%;
+}
+.logo {
+	position: relative;
+	float: left;
+	font-size: 24px;
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(to right, #352384, #e90b8b);
+}
+.logoStyle {
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	text-transform: uppercase;
+	background-size: 0% 6%;
+	background-image: linear-gradient(to right, #352384, #e90b8b);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 1px;
+	transition: 0.3s;
+	margin: 14px;
+	cursor: pointer;
+}
+.logoStyle:hover {
+	background-size: 100% 6%;
+}
+.avtorisedButtons {
+	position: relative;
+	font-size: 24px;
+}
+.loginButton {
+	border: none;
+	background-color: rgb(206, 206, 206);
+	border-radius: 5em;
+	margin: 10px 5px 10px 5px;
+	float: right;
+	width: 113px;
+	transition: box-shadow 0.2s 0.4s, background-color 0.3s;
+}
+.loginButton:hover {
+	box-shadow: 0 0 0 3px white, 0 0 0 6px rgb(190, 190, 190);
+	background-color: rgb(190, 190, 190);
+}
+.registerButton {
+	border: none;
+	background-color: red;
+	color: white;
+	border-radius: 5em;
+	margin: 10px 5px 10px 5px;
+	float: right;
+	width: 113px;
+	transition: box-shadow 0.2s 0.4s, background-color 0.3s;
+}
+.registerButton:hover {
+	box-shadow: 0 0 0 3px white, 0 0 0 6px rgb(134, 0, 0);
+	background-color: rgb(134, 0, 0);
+}
