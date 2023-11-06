@@ -1,0 +1,96 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+.h-er {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1px 0 #000000;
+}
+.logo {
+    width: 40px;
+}
+.logoButton {
+    border: none;
+    border-radius: 100em;
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    background-color: white;
+    transition: 0.3s;
+    float: left;
+}
+.logoButton:active {
+    .logo {
+        width: 35px;
+        transition: 0.2s;
+    }
+}
+.logoButton:hover {
+    background-color: rgb(230, 230, 230);
+}
+.userButton {
+    border: none;
+    border-radius: 100em;
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    background-color: white;
+    transition: 0.3s;
+    float: right;
+}
+.user {
+    width: 40px;
+}
+.userButton:active {
+    .user {
+        width: 35px;
+        transition: 0.2s;
+    }
+}
+.userButton:hover {
+    background-color: rgb(230, 230, 230);
+}
+.notifButton {
+    border: none;
+    border-radius: 100em;
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    background-color: white;
+    transition: 0.3s;
+    float: right;
+}
+.notif {
+    width: 34px;
+}
+.notifButton:active {
+    .notif {
+        width: 31px;
+        transition: 0.2s;
+    }
+}
+.notifButton:hover {
+    background-color: rgb(230, 230, 230);
+}
+.addButton {
+    border: none;
+    border-radius: 100em;
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    background-color: white;
+    transition: 0.3s;
+    float: right;
+}
+.add {
+    width: 34px;
+}
+.addButton:active {
+    .add {
+        width: 31px;
+        transition: 0.2s;
+    }
+}
+.addButton:hover {
+    background-color: rgb(230, 230, 230);
+}
