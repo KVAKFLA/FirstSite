@@ -4,6 +4,9 @@
 .headerColor {
 	background-color: white;
 }
+header{
+	z-index: 100;
+}
 html {
 	background-image: url(Img/Arts.jpg);
 	background-attachment: fixed;
@@ -20,11 +23,10 @@ body {
 .article1 {
 	height: 100vh;
 	background-color: white;
+	z-index: 2;
 }
 .article2 {
 	height: 70vh;
-
-	
 }
 .article3 {
 	height: 100vh;
@@ -125,4 +127,100 @@ body {
 .registerButton:hover {
 	box-shadow: 0 0 0 3px white, 0 0 0 6px rgb(134, 0, 0);
 	background-color: rgb(134, 0, 0);
+}
+.im1 {
+	width: 20%;
+	border-radius: 2em;
+	z-index: 50;
+	margin-top: 150px;
+	margin-left: 20px;
+	position: relative;
+}
+.im2 {
+	width: 18%;
+	border-radius: 2em;
+	z-index: 30;
+	margin-top: 190px;
+	margin-left: -60px;
+	position: relative;
+}
+.im3 {
+	width: 20%;
+	border-radius: 2em;
+	z-index: 40;
+	margin-top: 130px;
+	margin-left: -90px;
+	position: relative;
+	margin-right: 30px;
+}
+section {
+	z-index: 10;
+}
+article {
+	z-index: 20;
+}
+.article1 div span h1 {
+	font-size: 48px;
+	position: relative;
+	padding-top: 250px;
+	text-align: center;
+}
+.article1 div span p {
+	font-size: 32px;
+	position: relative;
+	padding: 30px;
+	text-align: justify;
+	padding-right: 30px;
+}
+.article2 div span h1 {
+	font-size: 48px;
+	position: relative;
+	text-align: center;
+	color: white;
+	padding: 200px 0 30px 0;
+}
+.article2 div span p {
+	font-size: 32px;
+	position: relative;
+	text-align: center;
+	padding: 0 400px 0 400px;
+	color: white;
+}
+.im4 {
+	width: 20%;
+	border-radius: 2em;
+	z-index: 50;
+	margin-top: 140px;
+	position: relative;
+	margin-right: 20px;
+}
+.im5 {
+	width: 18%;
+	border-radius: 2em;
+	z-index: 30;
+	margin-top: 180px;
+	margin-right: -60px;
+	position: relative;
+}
+.im6 {
+	width: 20%;
+	border-radius: 2em;
+	z-index: 40;
+	margin-top: 120px;
+	margin-right: -90px;
+	position: relative;
+	margin-left: 30px;
+}
+.article3 div span h1 {
+	font-size: 48px;
+	position: relative;
+	padding-top: 250px;
+	text-align: center;
+}
+.article3 div span p {
+	font-size: 32px;
+	position: relative;
+	padding: 30px;
+	text-align: justify;
+	padding-right: 30px;
 }
